@@ -19,7 +19,7 @@
 
         <!-- Nexus server details for FEI New infra -->
         <repo.server.protocol>http</repo.server.protocol>
-        <repo.server.root>172.29.140.218:8082</repo.server.root>
+        <repo.server.root>15.206.145.1:8082</repo.server.root>
         <repo.path>artifactory</repo.path>
         
 
