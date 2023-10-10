@@ -19,7 +19,7 @@
 
         <!-- Nexus server details for FEI New infra -->
         <repo.server.protocol>http</repo.server.protocol>
-        <repo.server.root>43.205.228.235:8082</repo.server.root>
+        <repo.server.root>13.126.57.65:8081</repo.server.root>
         <repo.path>artifactory</repo.path>
         
 
@@ -59,8 +59,10 @@
                             <version>${jgitflow.version}</version>
                             <configuration>
                                 <noDeploy>true</noDeploy>
-                                <username>${scmUsername}</username>
-                                <password>${scmPassword}</password>
+<!--                                 <username>${scmUsername}</username>
+                                <password>${scmPassword}</password> -->
+                                <username>pawankopparthi</username>
+                                <password>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</password>
                                 <flowInitContext>
                                     <masterBranchName>master</masterBranchName>
                                     <developBranchName>develop</developBranchName>
